@@ -1,0 +1,4 @@
+/vendor/
+tests/observer_pattern.txt
+.phpunit.result.cache
+.idea

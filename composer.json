@@ -1,0 +1,29 @@
+{
+    "name": "bakle/design-patterns",
+    "description": "Educational repository to provide code implementations for each design pattern",
+    "type": "project",
+    "require": {
+        "php": "^8.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bakle\\DesignPatterns\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Bakle\\DesignPatterns\\Test": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bashir Akle",
+            "email": "bashir.akle@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "10.0.x-dev"
+    }
+}
