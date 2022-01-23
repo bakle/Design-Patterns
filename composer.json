@@ -3,7 +3,9 @@
     "description": "Educational repository to provide code implementations for each design pattern",
     "type": "project",
     "require": {
-        "php": "^8.0"
+        "php": "^8.0",
+        "ext-mysqli": "*",
+        "ext-pgsql": "*"
     },
     "license": "MIT",
     "autoload": {
@@ -13,7 +15,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Bakle\\DesignPatterns\\Test": "tests/"
+            "Bakle\\DesignPatterns\\Test\\": "tests/"
         }
     },
     "authors": [
